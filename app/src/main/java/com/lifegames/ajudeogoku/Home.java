@@ -24,13 +24,13 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             int startColor = getWindow().getStatusBarColor();
             int endColor = ContextCompat.getColor(getApplicationContext(), R.color.home);
             ObjectAnimator.ofArgb(getWindow(), "statusBarColor", startColor, endColor).start();
         }
+
+        final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.sound_button);
 
         mp = MediaPlayer.create(this, R.raw.dbz_sound);
         mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
@@ -43,7 +43,6 @@ public class Home extends AppCompatActivity {
         mp.start();
 
         ImageView btnExitGame = findViewById(R.id.btnExit);
-        final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.sound_button);
         btnExitGame.setOnClickListener(new View.OnClickListener() {
 
             @Override

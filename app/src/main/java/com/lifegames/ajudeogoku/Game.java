@@ -94,7 +94,7 @@ public class Game extends AppCompatActivity {
                 mp2.start();
                 Intent i = new Intent(Game.this, Home.class);
                 startActivity(i);
-
+                finish();
             }
         });
 
