@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37418394709",
+    "project_id": "ajude-o-goku",
+    "storage_bucket": "ajude-o-goku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37418394709:android:734188ab7f1189300260dc",
+        "android_client_info": {
+          "package_name": "com.lifegames.ajudeogoku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl84LX4wjSy_acTPyt0pe52Weo_rup-6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
